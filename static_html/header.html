@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <div id="menubar">
+            <ul>
+            {{#otherPages}}
+                <li>{{pageName}} - {{#selected}}Current{{/selected}}{{^selected}}Not current{{/selected}}</li>
+            {{/otherPages}}
+            </ul>
+        </div>
